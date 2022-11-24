@@ -1,0 +1,15 @@
+   0 date > fale.txt
+   1 df -h |grep -w /
+   2 df -h |grep -w / >> fale.txt 
+   3 history
+   4 history | tail -5
+   5 cat /proc/cpuinfo
+   6 cat /proc/cpuinfo | grep vendor
+   7 cat /proc/cpuinfo | grep vendor >> fale.txt 
+   8 vi fale.txt 
+   9 ps -ef
+  10 ps -ef | tail + 2 |wc -l
+  11 ps -ef | wc -l
+  12 ps -ef | wc -l >> fale.txt 
+  13 history > /tmp/ history.txt
+  14 history > fale.txt history.txt
